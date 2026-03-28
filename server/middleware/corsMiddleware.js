@@ -1,7 +1,7 @@
 import cors from "cors";
 
 const allowedOrigins = new Set([
-  process.env.FRONTEND_URL || "https://bulk-mailer-three-psi.vercel.app",
+  process.env.FRONTEND_URL || "bulkmailerfrontend.vercel.app",
   "http://localhost:3000",
   "http://localhost:5173",
   "http://localhost:5174",
